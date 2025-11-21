@@ -1,17 +1,14 @@
-from connection import get_connection
-import config
 import csv
 
-def load_from_csv():
+def load_from_csv(conn):
     user_input = input("האם ברצונך לנקות את הטבלה לפני הטעינה מחדש yes or no")
-    conn = get_connection(config.user, config.password, config.host, config.database)
     cursor = conn.cursor()
 
     if user_input == 'yes':
         cursor.execute("DELETE FROM books")
 
 
-    with open("../data/books_100_rows.csv") as file:
+    with open("data/books_100_rows.csv") as file:
         reader = csv.reader(file)
         next(reader)
 
@@ -22,9 +19,6 @@ def load_from_csv():
                            "publication_date, publisher)"
                            "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s,%s,%s)",row)
         conn.commit()
-        cursor.close()
-        conn.close()
-
 
 
 

@@ -1,8 +1,7 @@
-from connection import get_connection
 
 
-def search_by_book_name(keyword):
-    cursor = get_connection()
+def search_by_book_name(conn,keyword):
+    cursor = conn.cursor()
     query= """SELECT book_id ,title, authors ,average_rating  
                     FROM books  
                     WHERE title LIKE CONCAT('%%',%s,'%%')"""
@@ -12,8 +11,8 @@ def search_by_book_name(keyword):
 
 
 
-def search_by_authors(author_name):
-    cursor = get_connection()
+def search_by_authors(conn,author_name):
+    cursor = conn.cursor()
     query = """
     SELECT book_id ,title ,authors ,average_rating
     FROM books
@@ -25,8 +24,8 @@ def search_by_authors(author_name):
 
 
 
-def most_or_least_appearing_author(user_input):
-    cursor = get_connection()
+def most_or_least_appearing_author(conn,user_input):
+    cursor = conn.cursor()
 
     if user_input == 'most':
         kind = "DESC"
@@ -45,8 +44,8 @@ def most_or_least_appearing_author(user_input):
 
 
 
-def highest_lowest_rating(user_input):
-    cursor = get_connection()
+def highest_lowest_rating(conn,user_input):
+    cursor = conn.cursor()
 
     if user_input == 'high':
         kind = "DESC"
@@ -64,10 +63,10 @@ def highest_lowest_rating(user_input):
 
 
 
-def free_query(query):
+def free_query(conn,query):
     if query[0:6] == "SELECT":
         if "UPDATE" not in query and "DELETE" not in query:
-            cursor = get_connection()
+            cursor = conn.cursor()
             cursor.execute(query)
             return cursor.fetchall()
         else:
@@ -75,7 +74,6 @@ def free_query(query):
 
     else:
         return "no select"
-
 
 
 
