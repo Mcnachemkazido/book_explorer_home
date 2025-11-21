@@ -1,0 +1,101 @@
+book_id,title,authors,average_rating,isbn,isbn13,language_code,num_pages,ratings_count,text_reviews_count,publication_date,publisher
+1,Artificial Intelligence Basics Vol. 5,Ian Goodfellow,2.53,9299431714,1912941966233,spa,397,17412,1660,2002-07-08,Global Education Press
+2,Introduction to Algorithms Vol. 4,John Smith,2.08,2542920550,1777753479042,eng,148,37671,909,2019-09-23,Open Knowledge Press
+3,Design Patterns Vol. 4,Thomas H. Cormen,2.5,4805276975,5638904468277,eng,115,29363,3530,2000-10-22,Open Knowledge Press
+4,Deep Learning Guide Vol. 4,Robert Martin,1.39,5722887067,3965563043076,ita,945,32170,2645,2020-01-24,Global Education Press
+5,Effective Java Vol. 4,Guido van Rossum,2.05,8657084476,6159580690363,heb,859,17221,3646,2015-04-22,Global Education Press
+6,Learning Python Vol. 4,James Gosling,1.12,5985975601,2872174718460,heb,1183,3246,1754,2022-04-28,Open Knowledge Press
+7,Learning Python Vol. 5,Thomas H. Cormen,4.13,2191936416,9611702248179,heb,530,8028,655,1992-09-28,CodeMasters
+8,Mastering SQL Vol. 5,Martin Fowler,4.72,6572673886,7146174699648,spa,86,16996,3421,1991-01-01,Future Learn Publications
+9,Learning Python Vol. 4,Ian Goodfellow,4.45,5808582190,1482699432574,deu,722,35526,428,1998-07-24,Future Learn Publications
+10,Effective Java Vol. 1,Thomas H. Cormen,4.09,8286746342,8665621245063,heb,876,35611,4176,2001-08-30,CodeMasters
+11,Deep Learning Guide Vol. 4,James Gosling,4.58,5290706396,7515579833545,fra,239,21862,4251,1992-12-22,CodeMasters
+12,Clean Code Vol. 1,Bjarne Stroustrup,2.65,7351235229,4701313655100,eng,527,9165,3498,2010-08-18,TechBooks Publishing
+13,Mastering SQL Vol. 2,Robert Martin,4.71,1443906749,3578827623307,deu,640,6129,1471,2011-11-02,Academic House
+14,Introduction to Algorithms Vol. 1,Martin Fowler,3.35,5574433529,3682693746136,eng,462,36269,506,2001-03-23,Future Learn Publications
+15,Design Patterns Vol. 1,Robert Martin,4.0,7356834076,5528392242115,heb,991,5666,697,2006-04-01,Global Education Press
+16,Operating Systems Concepts Vol. 4,James Gosling,2.74,6445136369,4760613822302,eng,770,29638,1014,2022-12-25,CodeMasters
+17,Learning Python Vol. 4,Thomas H. Cormen,4.7,2471757665,6054838878159,fra,419,38076,1611,1999-11-24,TechBooks Publishing
+18,Effective Java Vol. 2,James Gosling,2.71,1454471279,1107786761818,deu,639,39662,2694,2008-12-19,Future Learn Publications
+19,Effective Java Vol. 2,Jane Doe,3.61,9670871678,2609330309724,deu,106,5245,966,2011-05-16,Academic House
+20,Design Patterns Vol. 4,James Gosling,4.34,5811565057,1765499201736,spa,847,22907,62,2011-06-19,TechBooks Publishing
+21,Data Structures in C Vol. 4,Robert Martin,3.5,8291652472,6002517105035,spa,475,49060,2853,2004-03-12,CodeMasters
+22,Operating Systems Concepts Vol. 1,Bjarne Stroustrup,3.11,8603439946,1346388709808,spa,259,46288,3133,1994-11-12,TechBooks Publishing
+23,Data Structures in C Vol. 2,Ian Goodfellow,2.38,9629233048,1613436257144,fra,59,26456,338,2000-06-22,Global Education Press
+24,Design Patterns Vol. 4,James Gosling,1.91,2856283125,4384945304215,heb,637,41831,888,2000-06-18,Future Learn Publications
+25,Deep Learning Guide Vol. 5,Ian Goodfellow,1.21,9957131204,5427898559736,fra,620,23961,1718,2014-09-07,TechBooks Publishing
+26,Data Structures in C Vol. 5,Andrew Tanenbaum,4.38,6251700980,5729863007524,deu,853,18519,4137,2017-04-06,CodeMasters
+27,Computer Networks Vol. 5,Ian Goodfellow,3.11,3861236840,5570822796799,spa,626,33040,86,2024-03-13,Open Knowledge Press
+28,Deep Learning Guide Vol. 2,James Gosling,1.99,5933341538,6707236842016,fra,1073,31035,2879,2005-01-05,Academic House
+29,Design Patterns Vol. 4,Andrew Tanenbaum,4.63,6384390726,8221132954613,heb,270,19655,1943,1990-04-16,Global Education Press
+30,Introduction to Algorithms Vol. 5,Robert Martin,1.25,8093235077,9578695793632,ita,374,8333,1562,2015-07-20,Future Learn Publications
+31,Introduction to Algorithms Vol. 2,Andrew Tanenbaum,3.9,6501607123,8659500431071,deu,732,11047,3393,2020-01-24,Global Education Press
+32,Deep Learning Guide Vol. 3,Bjarne Stroustrup,3.01,3752626915,4928769822592,spa,883,38832,1723,2005-07-26,Open Knowledge Press
+33,Mastering SQL Vol. 5,Bjarne Stroustrup,3.51,2449488961,6859132870738,fra,68,44369,1242,2022-08-09,Academic House
+34,Data Structures in C Vol. 3,Jane Doe,4.05,8475414623,5675325600264,eng,328,37379,3811,1991-06-27,Global Education Press
+35,Design Patterns Vol. 1,James Gosling,4.69,6965301052,8048778845422,heb,792,38434,3728,1998-05-18,CodeMasters
+36,Data Structures in C Vol. 4,Guido van Rossum,3.17,1891305591,9099964960637,spa,1069,21985,3036,1994-04-18,Open Knowledge Press
+37,Clean Code Vol. 2,Andrew Tanenbaum,4.21,4378177144,3339644549871,ita,1168,36954,2457,2004-06-10,TechBooks Publishing
+38,Design Patterns Vol. 2,Robert Martin,1.78,4574073723,8584910384558,spa,228,24469,4622,1997-03-26,Future Learn Publications
+39,Clean Code Vol. 2,Thomas H. Cormen,3.68,4947282485,4652653445903,heb,1093,35375,2769,2018-09-08,TechBooks Publishing
+40,Deep Learning Guide Vol. 2,Robert Martin,2.4,3642581669,4494377678983,deu,792,8003,2095,2020-01-31,Global Education Press
+41,Learning Python Vol. 3,John Smith,2.21,4143181446,7470558651130,deu,746,42832,154,2024-02-24,CodeMasters
+42,Artificial Intelligence Basics Vol. 1,Martin Fowler,2.59,6554832796,6457035225597,deu,132,11708,1304,2017-04-01,Academic House
+43,Artificial Intelligence Basics Vol. 2,James Gosling,4.28,8970307792,3964315645492,ita,567,7629,32,2003-06-22,Future Learn Publications
+44,Introduction to Algorithms Vol. 4,Martin Fowler,3.1,6168331189,9362316185444,eng,1187,9300,106,2000-11-25,Open Knowledge Press
+45,Computer Networks Vol. 5,Guido van Rossum,2.97,1699069444,5364678009483,fra,915,25167,3832,1994-04-13,Future Learn Publications
+46,Mastering SQL Vol. 5,John Smith,1.78,8800153855,1466442823290,ita,715,13220,3905,2003-07-26,Open Knowledge Press
+47,Design Patterns Vol. 3,John Smith,1.5,8238325775,3040373338754,fra,129,17151,2441,2014-05-07,Global Education Press
+48,Effective Java Vol. 3,Ian Goodfellow,2.02,2256584584,4193613290395,spa,68,29138,4057,1997-05-27,Academic House
+49,Design Patterns Vol. 4,James Gosling,2.6,3056800882,9587799889010,heb,139,27309,3795,2024-01-03,Academic House
+50,Design Patterns Vol. 2,Martin Fowler,4.87,3574248723,9067851686865,heb,395,20600,2750,2021-10-31,Academic House
+51,Introduction to Algorithms Vol. 1,Thomas H. Cormen,4.08,2336500510,6419777889097,eng,1096,26172,2214,2004-07-20,CodeMasters
+52,Artificial Intelligence Basics Vol. 1,Robert Martin,2.37,2415107386,6267144616726,fra,178,13779,2755,2003-10-21,TechBooks Publishing
+53,Computer Networks Vol. 5,Martin Fowler,1.01,2232541625,2375170763836,ita,456,37319,827,1991-08-25,TechBooks Publishing
+54,Data Structures in C Vol. 1,Thomas H. Cormen,2.66,8994650017,3529999659807,heb,134,10775,2128,2018-01-28,Future Learn Publications
+55,Computer Networks Vol. 4,Bjarne Stroustrup,1.9,8718199308,3256776309617,deu,84,17790,1542,2005-01-22,TechBooks Publishing
+56,Clean Code Vol. 1,James Gosling,1.62,1876502812,5070662870016,heb,422,49273,3915,2021-07-29,Global Education Press
+57,Design Patterns Vol. 5,Andrew Tanenbaum,1.75,9308398158,4268977907231,deu,686,12598,4686,1998-08-28,Academic House
+58,Introduction to Algorithms Vol. 3,Jane Doe,4.72,8519671078,1897142374539,heb,485,48685,4552,2005-04-07,Future Learn Publications
+59,Artificial Intelligence Basics Vol. 5,John Smith,1.73,7629859312,5845886644547,fra,1027,26236,4472,1999-08-20,Future Learn Publications
+60,Operating Systems Concepts Vol. 3,John Smith,2.04,5229453491,2306794305267,ita,370,24734,2808,2011-10-20,CodeMasters
+61,Effective Java Vol. 3,Ian Goodfellow,1.54,4542077596,1338519777116,fra,504,46779,2501,2018-01-05,Future Learn Publications
+62,Data Structures in C Vol. 1,Thomas H. Cormen,1.92,2747050738,5505004778247,heb,1052,46596,1769,1990-04-17,Open Knowledge Press
+63,Mastering SQL Vol. 5,John Smith,1.33,9620289097,2341334518092,fra,290,9357,996,1991-05-22,TechBooks Publishing
+64,Clean Code Vol. 1,Thomas H. Cormen,2.1,4197774266,3560945120120,eng,756,2316,4765,1999-01-02,Global Education Press
+65,Deep Learning Guide Vol. 5,Andrew Tanenbaum,4.34,4210214052,4782119153838,spa,938,47148,3896,1996-09-16,Global Education Press
+66,Computer Networks Vol. 4,Thomas H. Cormen,4.53,9204307594,1633925430211,heb,871,11720,2598,2022-06-13,Global Education Press
+67,Effective Java Vol. 2,Thomas H. Cormen,4.42,2918579180,1001262828827,deu,57,45406,1874,2021-07-28,Academic House
+68,Operating Systems Concepts Vol. 3,Ian Goodfellow,2.84,7891769251,2314365963901,spa,588,46281,2632,2022-08-27,Global Education Press
+69,Clean Code Vol. 5,Andrew Tanenbaum,2.9,5374524112,5433778963798,spa,999,41525,4673,2007-10-11,CodeMasters
+70,Deep Learning Guide Vol. 5,Jane Doe,2.82,7525837640,7140143494695,heb,533,14813,3985,2009-10-30,Academic House
+71,Learning Python Vol. 1,Ian Goodfellow,1.97,6105930060,8340764273684,heb,1188,10590,635,2024-03-13,CodeMasters
+72,Learning Python Vol. 2,Bjarne Stroustrup,2.36,8328418732,2601737911580,spa,137,44412,3982,2004-07-30,Future Learn Publications
+73,Mastering SQL Vol. 5,James Gosling,3.09,7492388973,3966842539332,deu,100,31156,2013,2015-12-07,Academic House
+74,Design Patterns Vol. 1,Martin Fowler,4.27,8925357194,3957295261032,heb,131,10340,1436,2019-03-23,TechBooks Publishing
+75,Learning Python Vol. 1,Thomas H. Cormen,1.36,7664163572,5625971548003,fra,615,39847,3498,1994-05-27,Global Education Press
+76,Mastering SQL Vol. 4,Guido van Rossum,3.71,3738461158,3681759250091,fra,890,28707,3097,2005-07-24,Open Knowledge Press
+77,Design Patterns Vol. 5,Guido van Rossum,2.71,3673946488,7669655970767,ita,96,49570,376,2017-12-03,Future Learn Publications
+78,Artificial Intelligence Basics Vol. 4,Bjarne Stroustrup,3.2,8687198247,4130838707490,heb,692,3913,3225,2000-06-26,CodeMasters
+79,Operating Systems Concepts Vol. 2,Guido van Rossum,2.74,5012177375,8438356226574,eng,266,1828,4548,2017-11-21,Academic House
+80,Introduction to Algorithms Vol. 2,Martin Fowler,3.79,5353686487,8572999096749,fra,161,30761,1580,2008-10-19,Open Knowledge Press
+81,Design Patterns Vol. 3,Andrew Tanenbaum,2.93,6748104900,8836978362723,ita,559,924,883,2005-09-23,CodeMasters
+82,Computer Networks Vol. 5,Martin Fowler,1.24,5176570690,3287132203329,fra,277,3569,1306,2014-06-06,TechBooks Publishing
+83,Introduction to Algorithms Vol. 2,Thomas H. Cormen,3.76,8547075654,7059779746756,eng,110,28029,4299,1997-03-05,TechBooks Publishing
+84,Operating Systems Concepts Vol. 1,Robert Martin,3.87,4765367224,5081495414995,heb,684,26186,3891,1996-04-25,CodeMasters
+85,Deep Learning Guide Vol. 2,Jane Doe,2.53,9370181091,8624073924119,deu,267,9890,2599,2005-08-08,Global Education Press
+86,Learning Python Vol. 1,Jane Doe,3.71,4872486424,1272750534520,heb,549,41748,1688,2014-09-30,Academic House
+87,Operating Systems Concepts Vol. 2,Martin Fowler,3.72,1886574003,1543589405229,ita,997,2621,3299,2002-01-29,TechBooks Publishing
+88,Introduction to Algorithms Vol. 1,John Smith,4.6,3326592067,7577904091214,heb,139,28819,937,2004-02-11,Future Learn Publications
+89,Clean Code Vol. 3,Thomas H. Cormen,2.5,2140679731,1078833882665,spa,1017,2898,2121,1990-06-15,TechBooks Publishing
+90,Mastering SQL Vol. 2,Guido van Rossum,4.9,4491115380,7068953574459,ita,998,34593,2294,1996-10-15,Open Knowledge Press
+91,Effective Java Vol. 5,Ian Goodfellow,4.51,4139096552,7528930166447,spa,370,46041,1802,1997-11-16,Future Learn Publications
+92,Data Structures in C Vol. 5,James Gosling,3.32,9194115813,4952151708607,heb,281,41657,2873,2005-09-15,Global Education Press
+93,Learning Python Vol. 3,Bjarne Stroustrup,3.13,2041707617,8823038481573,heb,370,34021,719,1999-04-02,Global Education Press
+94,Artificial Intelligence Basics Vol. 5,Jane Doe,1.99,7920589768,6941499154620,spa,503,7035,4357,2013-05-09,Future Learn Publications
+95,Data Structures in C Vol. 1,Bjarne Stroustrup,4.34,7556781155,7738708697122,ita,126,5039,3241,2023-06-19,Future Learn Publications
+96,Mastering SQL Vol. 1,James Gosling,3.52,3256530734,7737485856969,spa,689,14600,3211,2008-12-16,TechBooks Publishing
+97,Deep Learning Guide Vol. 4,Andrew Tanenbaum,4.19,7446446963,8736598134593,spa,256,1334,4386,2019-11-30,TechBooks Publishing
+98,Mastering SQL Vol. 1,Andrew Tanenbaum,4.02,6184970847,8788270621942,spa,1182,24110,3961,1997-05-12,Academic House
+99,Operating Systems Concepts Vol. 2,John Smith,4.17,5562613017,6642696763242,deu,334,36462,2404,2022-07-19,Academic House
+100,Computer Networks Vol. 2,James Gosling,2.27,2848193728,3475312459572,heb,735,37889,869,2002-10-31,Academic House
