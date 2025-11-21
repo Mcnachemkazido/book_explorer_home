@@ -1,23 +1,19 @@
 from connection import get_connection
-import config
+
 
 def search_by_book_name(keyword):
-    conn = get_connection(config.user,config.password,config.host,config.database)
-    cursor = conn.cursor()
+    cursor = get_connection()
     query= """SELECT book_id ,title, authors ,average_rating  
                     FROM books  
                     WHERE title LIKE CONCAT('%%',%s,'%%')"""
     cursor.execute(query,keyword)
 
-    rows = cursor.fetchall()
-    for r in rows:
-        print(r)
+    return cursor.fetchall()
 
 
 
 def search_by_authors(author_name):
-    conn = get_connection(config.user,config.password,config.host,config.database)
-    cursor = conn.cursor()
+    cursor = get_connection()
     query = """
     SELECT book_id ,title ,authors ,average_rating
     FROM books
@@ -25,14 +21,12 @@ def search_by_authors(author_name):
     """
     cursor.execute(query,author_name)
 
-    rows = cursor.fetchall()
-    for r in rows:
-        print(r)
+    return cursor.fetchall()
+
 
 
 def most_or_least_appearing_author(user_input):
-    conn = get_connection(config.user,config.password,config.host,config.database)
-    cursor = conn.cursor()
+    cursor = get_connection()
 
     if user_input == 'most':
         kind = "DESC"
@@ -47,13 +41,12 @@ def most_or_least_appearing_author(user_input):
     LIMIT 1
     """
     cursor.execute(query)
-    rose = cursor.fetchone()
-    print(rose)
+    return cursor.fetchone()
+
 
 
 def highest_lowest_rating(user_input):
-    conn = get_connection(config.user,config.password,config.host,config.database)
-    cursor = conn.cursor()
+    cursor = get_connection()
 
     if user_input == 'high':
         kind = "DESC"
@@ -67,28 +60,21 @@ def highest_lowest_rating(user_input):
     LIMIT 10
     """
     cursor.execute(query)
-    rose = cursor.fetchall()
+    return cursor.fetchall()
 
-    for r in rose:
-        print(r)
 
 
 def free_query(query):
     if query[0:6] == "SELECT":
         if "UPDATE" not in query and "DELETE" not in query:
-            conn = get_connection(config.user,config.password,config.host,config.database)
-            cursor = conn.cursor()
+            cursor = get_connection()
             cursor.execute(query)
-            rose = cursor.fetchall()
-
-            for r in rose:
-                print(r)
+            return cursor.fetchall()
         else:
-            print("only print")
+            return "only print"
 
     else:
-        print("no select")
-
+        return "no select"
 
 
 

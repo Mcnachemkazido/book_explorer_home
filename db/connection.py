@@ -1,8 +1,11 @@
 import pymysql
+import config
 
 
-def get_connection(user_name ,entry_password,host_run ,database_run):
-    return pymysql.connect(user=user_name,password=entry_password,host=host_run,database=database_run)
+def get_connection():
+    coon = pymysql.connect(user=config.user,passwd=config.password,
+                           host=config.host,database=config.database)
+    return coon.cursor()
 
 
 
