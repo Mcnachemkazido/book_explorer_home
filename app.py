@@ -31,16 +31,30 @@ def user_menu():
 
         if user_selection == 0:
             user_wants = False
-
-        if user_selection == 6:
-            result = queries.free_query(conn,input("תכניס שאילתה"))
+            conn.close()
+            continue
 
         if user_selection == 1:
             load_csv.load_from_csv(conn)
+            continue
 
         if user_selection == 2:
             result = queries.search_by_book_name(conn,input("תכניס את שם הספר"))
-            print(result)
+
+        if user_selection == 3:
+            result = queries.search_by_authors(conn,input("תכניס את שם המחבר"))
+
+        if user_selection == 4:
+            result = queries.most_or_least_appearing_author(conn,input("most/least???"))
+
+        if user_selection == 5:
+            result = queries.highest_lowest_rating(conn,input("high or low???"))
+
+        if user_selection == 6:
+            result = queries.free_query(conn, input("תכניס שאילתה"))
+
+        for row in result:
+            print(row)
 
 
 

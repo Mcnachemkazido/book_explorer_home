@@ -6,8 +6,9 @@ def search_by_book_name(conn,keyword):
                     FROM books  
                     WHERE title LIKE CONCAT('%%',%s,'%%')"""
     cursor.execute(query,keyword)
-
-    return cursor.fetchall()
+    result = cursor.fetchall()
+    cursor.close()
+    return result
 
 
 
@@ -19,8 +20,10 @@ def search_by_authors(conn,author_name):
     WHERE authors LIKE CONCAT('%%',%s,'%%')
     """
     cursor.execute(query,author_name)
+    result = cursor.fetchall()
+    cursor.close()
 
-    return cursor.fetchall()
+    return result
 
 
 
@@ -40,7 +43,9 @@ def most_or_least_appearing_author(conn,user_input):
     LIMIT 1
     """
     cursor.execute(query)
-    return cursor.fetchone()
+    result = cursor.fetchone()
+    cursor.close()
+    return result
 
 
 
@@ -53,13 +58,15 @@ def highest_lowest_rating(conn,user_input):
         kind = "ASC"
 
     query =  f"""
-    SELECT *
+    SELECT book_id ,title ,authors ,average_rating
     FROM books
     ORDER BY average_rating {kind}
-    LIMIT 10
+    LIMIT 5
     """
     cursor.execute(query)
-    return cursor.fetchall()
+    result = cursor.fetchall()
+    cursor.close()
+    return result
 
 
 
@@ -68,7 +75,9 @@ def free_query(conn,query):
         if "UPDATE" not in query and "DELETE" not in query:
             cursor = conn.cursor()
             cursor.execute(query)
-            return cursor.fetchall()
+            result = cursor.fetchall()
+            cursor.close()
+            return result
         else:
             return "only print"
 
